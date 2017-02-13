@@ -9,10 +9,24 @@ module.exports = {
     contentBase: "./dist"
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.scss$/,
-        loader: "style!css!sass"
+        use: [
+          "style-loader",
+          "css-loader",
+          "sass-loader"
+        ]
+      },
+      {
+        test: /\.js$/,
+        exclude: /(node_modules|bower_components)/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['es2015']
+          }
+        }
       }
     ]
   }
