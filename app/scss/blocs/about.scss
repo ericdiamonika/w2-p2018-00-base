@@ -1,0 +1,14 @@
+.about{
+	background-color: $darkcolor;
+	color: $lightcolor;
+	h2{
+		text-align: center;
+		padding: 10px;
+	}
+	.desc{
+		padding: 40px 0;
+		p{
+			margin-top: 20px;
+		}
+	}
+}
