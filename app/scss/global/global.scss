@@ -1,0 +1,21 @@
+.center,
+h2{
+	display: block;
+	text-align: center;
+}
+.medium{
+	position: relative;
+	z-index: 1;
+}
+.wrap{
+	max-width: 1120px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 20px;
+}
+img{
+	width: 100%;
+}
+.hidden{
+	display: none;
+}
