@@ -1,4 +1,6 @@
 header{
+	position: fixed;
+	width: 100%;
 	nav{
 		width: 100%;
 		ul{
@@ -9,9 +11,9 @@ header{
 		}
 		li{
 			display:inline-block;
+			padding: 15px;
 		}
 		a{
-			padding: 15px;
 			color: $lightcolor;
 		}
 	}
