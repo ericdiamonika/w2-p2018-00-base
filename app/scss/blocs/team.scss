@@ -1,15 +1,30 @@
 .masonry {
-	margin: 1.5em 0;
-	padding: 0;
+	padding: 20px;
 	column-count: 1;
 }
 
 .item {
 	display: inline-block;
-	background-image: url('https://images.unsplash.com/photo-1454329030972-00583f5f051f?dpr=2&auto=format&fit=crop&w=1500&h=1011&q=80&cs=tinysrgb&crop=');
 	background-size: cover;
 	width: 100%;
 	min-height: 200px;
 	box-sizing: border-box;
-	margin: -3px 0;
+	margin-bottom: 20px;
+}
+.masonry-team{
+	color: $lightcolor;
+	p{
+		font-family: $font2;
+		margin-top: 20px;
+		text-align: center;
+	}
+	.item:first-child{
+		background-image: url('https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/17017105_1234263126610416_1723880053742315563_o.jpg?oh=698eb6ae851a9aa07409a980d0d19b8e&oe=596F7B2D');
+	}
+	.item:nth-child(2){
+		background-image: url('https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/16905026_1234257943277601_8146752191326099457_o.jpg?oh=49a542cc1af8257a670e2a3a6c4a05b7&oe=592E094C');
+	}
+	.item:nth-child(3){
+		background-image: url('https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/16905023_1234270236609705_8344614664366490306_o.jpg?oh=3481109c1d74c93efcbd72d8e52840d3&oe=59683D17');
+	}
 }

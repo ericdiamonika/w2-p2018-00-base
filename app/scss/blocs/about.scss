@@ -1,23 +1,23 @@
 .about{
-	background-image: url('http://foxthemes.com/web/wp/miami/wp-content/uploads/2016/11/about_pink.jpg?id=826');
-	background-size:cover;
 	color: $lightcolor;
 	padding: 20px;
 	h2{
 		font-size: 2em;
 		text-align: center;
-		padding: 10px;
+		padding: 40px;
 	}
 	p{
-		font-size: 10px;
+		font-family: $font2;
+		font-size: 12px;
+		line-height: 15px;
 		text-align: center;
 		margin-top: 10px;
 	}
 	.desc{
-		padding: 40px 0;
+		padding: 60px 0;
 		p{
 			margin-top: 20px;
-			font-size: 1rem;
+			font-size: 12px;
 		}
 	}
 }
