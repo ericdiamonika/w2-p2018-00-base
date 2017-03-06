@@ -1,0 +1,21 @@
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	nav{
+		width: 100%;
+		ul{
+			text-align: center;
+			height: auto;
+			background-color: $darkcolor;
+			margin: 0 auto;
+		}
+		li{
+			display:block;
+			padding: 15px;
+		}
+		a{
+			color: $lightcolor;
+		}
+	}
+}

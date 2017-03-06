@@ -1,0 +1,18 @@
+.masonry-gallery{
+	color: $lightcolor;
+	.item:first-child{
+		background-image: url('https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/16804499_1228163463887049_2380094993833372415_o.jpg?oh=a850e81713ef475397477c8c1bdb7aff&oe=5926A20F');
+	}
+	.item:nth-child(2){
+		background-image: url('https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/16991780_1234277209942341_4623628472354219754_o.jpg?oh=58be081b6eed9d63df386f815c2823f2&oe=592AB0A9');
+	}
+	.item:nth-child(3){
+		background-image: url('https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/17039231_1234264836610245_6776470132086060758_o.jpg?oh=38f7ba3bc876ce47bf9fe6c12f04178c&oe=596C039B');
+	}
+	.item:nth-child(4){
+		background-image: url('https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/16992427_1234259769944085_7471527518654044239_o.jpg?oh=bd628f89cd490b670d5c02e1af50f9e0&oe=59284388');
+	}
+	.item:nth-child(5){
+		background-image: url('https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/17097449_1234259236610805_7221794408274996027_o.jpg?oh=e0c25c9c8f975c7b1eab28490f44545a&oe=592F2070');
+	}
+}

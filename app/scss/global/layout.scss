@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400,600,800');
+html {
+	box-sizing: border-box;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	height: 100%;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-size: 16px;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	background-image:url('https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/16992340_1234259009944161_2632775724912100723_o.jpg?oh=2ecff1fbf0aa86ffb119b61b64c8f2dd&oe=592844DA');
+}

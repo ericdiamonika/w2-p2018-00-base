@@ -1,6 +1,15 @@
 @import 'vendors/reset';
 
 @import 'global/layout';
+@import 'global/variable';
+@import 'global/global';
 
 @import 'blocs/header';
 @import 'blocs/footer';
+
+@import 'blocs/prehome';
+@import 'blocs/about';
+@import 'blocs/team';
+@import 'blocs/event';
+@import 'blocs/service';
+@import 'blocs/gallery';

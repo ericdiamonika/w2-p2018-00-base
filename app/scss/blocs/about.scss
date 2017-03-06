@@ -1,0 +1,23 @@
+.about{
+	color: $lightcolor;
+	padding: 20px;
+	h2{
+		font-size: 2em;
+		text-align: center;
+		padding: 40px;
+	}
+	p{
+		font-family: $font2;
+		font-size: 12px;
+		line-height: 15px;
+		text-align: center;
+		margin-top: 10px;
+	}
+	.desc{
+		padding: 60px 0;
+		p{
+			margin-top: 20px;
+			font-size: 12px;
+		}
+	}
+}
