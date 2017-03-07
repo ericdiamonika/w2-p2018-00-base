@@ -5,17 +5,21 @@
 		padding: 60px 0;
 		 h5{
 			margin-top: 20px;
-			margin-left: 35%;
-			padding-left: 0;
-			padding-right: 0;
+			@media screen and (min-width: $desktop-small){
+				margin-left: 35%;
+				padding-left: 0;
+				padding-right: 0;
+			}
 			 p{
 				opacity: .5;
 				font-size: 14px;
-				color: #ffffff;
+				color: $lightcolor;
 				opacity: .5;
 				letter-spacing: .3px;
-				max-width: 540px;
-				line-height: 24px;
+				@media screen and (min-width: $desktop-small){
+					max-width: 540px;
+					line-height: 24px;
+				}
 			 }
 		}
 	}
