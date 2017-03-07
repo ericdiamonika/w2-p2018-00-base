@@ -8,15 +8,18 @@
 
 
 .item {
+	width: 100%;
 	display: inline-block;
 	background-size: cover;
-	width: 30%;
 	min-height: 200px;
 	box-sizing: border-box;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding-left: 15%;
 	padding-right: 15%;
+	@media screen and (min-width: $desktop-small){
+		width: 30%;
+	}
 	
 }
 .masonry-team{
