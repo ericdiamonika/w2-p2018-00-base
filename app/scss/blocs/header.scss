@@ -9,6 +9,7 @@ header{
 			height: auto;
 			background-color: $darkcolor;
 			margin: 0 auto;
+			display: none;
 		}
 		li{
 			display:block;
@@ -18,4 +19,7 @@ header{
 			color: $lightcolor;
 		}
 	}
+}
+.menu-toggle{
+	position: absolute;
 }

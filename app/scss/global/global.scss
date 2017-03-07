@@ -1,3 +1,11 @@
+
+@font-face {
+  font-family: 'Luxia-Semi-BoldDisplay';
+  src: url('font/Luxia-Semi-BoldDisplay.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .center,
 h2{
 	display: block;
@@ -18,4 +26,7 @@ img{
 }
 .hidden{
 	display: none;
+}
+.show{
+	display: block;
 }
