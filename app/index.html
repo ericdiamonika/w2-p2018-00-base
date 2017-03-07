@@ -49,6 +49,7 @@
 					<div class="item"></div>
 					<div class="item"></div>
 					<div class="item"></div>
+					<div class="item"></div>
 				</div>
 			</div>
 
@@ -124,19 +125,19 @@
 			<div class="reservation">
 			<h2>Reservation</h2>
 			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-				<form action="#" method="post">
+				<form action="mailto:johanna.khen@gmail.com" method="post" enctype="text/plain">
 					<div>
-						<input type="text" name="name" value="" size="40" placeholder="Nom">
-						<input type="text" name="name" value="" size="40" placeholder="Mail">
-						<input type="text" name="name" value="" size="40" placeholder="Numéro">
+						<input type="text" name="nom" value="" size="40" placeholder="Nom" required>
+						<input type="email" name="email" value="" size="40" placeholder="exemple@gmail.com" required>
+						<input type="tel" name="numéro" value="" size="40" placeholder="Numéro">
 					</div>
 				
 					<div>
-						<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+						<textarea cols="40" rows="8" name="textarea" id="textarea" placeholder="Demande spécifique"></textarea>
 					</div>
 				
 					<div>
-						<input type="submit" value="Submit" />
+						<input type="submit" value="Envoyer" />
 					</div>
 				</form>
 			</div>	
