@@ -14,5 +14,15 @@
 	}
 	img{
 		margin: 20px 0;
+		height: 300px;
+		width: auto;
+	}
+}
+.event-project{
+	width: 100%;
+	padding-bottom: 20px;
+	@media screen and (min-width: $desktop-small){
+		width: 33%;
+		display: inline-block;
 	}
 }

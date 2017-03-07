@@ -1,8 +1,10 @@
 .masonry {
 	padding: 20px;
 	column-count: 1;
-	margin-left: 2%;
-	margin-right: 2%;
+	// @media screen and (min-width: $desktop-small){
+	// 	margin-left: 2%;
+	// 	margin-right: 2%;
+	// }
 	width: 100%;
 }
 

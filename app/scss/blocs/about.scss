@@ -3,12 +3,16 @@
 	padding: 20px;
 	.desc{
 		padding: 60px 0;
+		@media screen and (min-width: $desktop-small){
+			width: 50%;
+			float: right;
+		}
 		 h5{
 			margin-top: 20px;
 			@media screen and (min-width: $desktop-small){
-				margin-left: 35%;
 				padding-left: 0;
 				padding-right: 0;
+				text-align: left;
 			}
 			 p{
 				opacity: .5;
@@ -17,8 +21,8 @@
 				opacity: .5;
 				letter-spacing: .3px;
 				@media screen and (min-width: $desktop-small){
-					max-width: 540px;
 					line-height: 24px;
+					margin: 0;
 				}
 			 }
 		}
