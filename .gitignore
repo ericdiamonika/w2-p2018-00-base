@@ -2,3 +2,4 @@
 /dist/*
 !dist/img
 *log
+.DS_Store
