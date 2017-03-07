@@ -24,7 +24,6 @@ var waypoint = new Waypoint({
   element: document.getElementById('service-anchor'),
   offset: "100%",
   handler: function(direction) {
-  	console.log("fadinwrap");
     $('.event-wrap').fadeIn();
 }
 });
@@ -32,7 +31,6 @@ var waypoint = new Waypoint({
   element: document.getElementById('service-anchor'),
   offset: "90%",
   handler: function(direction) {
-  	console.log("fadin");
     $('#event-anchor').fadeIn(4000);
 }
 });
