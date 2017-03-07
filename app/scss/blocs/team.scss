@@ -16,10 +16,7 @@
 	background-size: cover;
 	min-height: 200px;
 	box-sizing: border-box;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding-left: 15%;
-	padding-right: 15%;
+	margin: 2rem 0;
 	background-position: center;
 	position: relative;
 	overflow: hidden;
@@ -62,22 +59,27 @@
 }
 .masonry-team{
 	color: $lightcolor;
+	margin-top: 3rem;
 	p{
 		font-family: $font2;
-		margin-top: 20px;
+		margin-top: 2rem;
 		text-align: center;
 	}
-	.item:first-child{
-		background-image: url('../img/team/romain.jpg');
+	.item{
+		&:first-child{
+			background-image: url('../img/team/romain.jpg');
+		}
+		&:nth-child(2){
+			background-image: url('../img/team/cyril.jpg');
+		}
+		&:nth-child(3){
+			background-image: url('../img/team/sacha.jpg');
+		}
+		&:nth-child(4){
+			background-image: url('../img/team/demoiselle.jpg');
+		}
+
 	}
-	.item:nth-child(2){
-		background-image: url('../img/team/cyril.jpg');
-	}
-	.item:nth-child(3){
-		background-image: url('../img/team/sacha.jpg');
-	}
-	.item:nth-child(4){
-		background-image: url('../img/team/demoiselle.jpg');
-	}
+
 }
 
