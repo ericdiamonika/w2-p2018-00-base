@@ -1,5 +1,13 @@
 footer{
 	height: 60px;
-	background-color: $darkcolor;
 	color: $lightcolor;
+	text-align: center;
+	a{
+		position: relative;
+		color: $lightcolor;
+		cursor: pointer;
+		top: 50%;
+		transform: translateY(-50%);
+		text-decoration: none;
+	}
 }
