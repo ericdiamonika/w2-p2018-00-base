@@ -11,6 +11,9 @@
 	}
 	.desc{
 		padding: 60px 0 60px 30px;
+		@media screen and (max-width: $mobile-small){
+			padding: 0;
+		}
 		@media screen and (min-width: $desktop-small){
 			width: 50%;
 			float: right;
