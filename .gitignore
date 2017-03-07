@@ -1,5 +1,6 @@
 /node_modules
 /dist/*
 !dist/img
+!dist/js
 *log
 .DS_Store
