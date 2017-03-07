@@ -15,12 +15,19 @@ gulp.task('scss', function() {
         .pipe(sync.stream());
 });
 
+
+gulp.task('js', function() {
+  return gulp.src('./app/js/**/*js')
+    .pipe(gulp.dest('dist/js'));
+});
+
 gulp.task('watch', function() {
   gulp.watch(['./app/scss/**/*.scss'], ['scss']);
+  gulp.watch(['./app/js/**/*.js'], ['js']);
   gulp.watch(['./app/index.html'], ['html']);
 });
 
-gulp.task('sync', ['html', 'scss', 'watch'], function() {
+gulp.task('sync', ['html','js', 'scss', 'watch'], function() {
     sync.init({
         server: __dirname + '/dist'
     });
