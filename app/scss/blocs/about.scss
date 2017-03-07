@@ -1,6 +1,10 @@
 .about{
 	color: $lightcolor;
 	padding: 20px;
+	display: inline-block;
+	background-image:url('../img/about/medusa.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 	.desc{
 		padding: 60px 0;
 		@media screen and (min-width: $desktop-small){
@@ -28,3 +32,4 @@
 		}
 	}
 }
+
