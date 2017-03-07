@@ -2,27 +2,38 @@
 	color: $lightcolor;
 	padding: 20px;
 	h2{
-		padding-bottom: 20px;
+		padding-bottom: 1rem;
 	}
 	h3{
 		text-align: center;
-		margin-bottom: 30px;
+		margin-bottom: 2rem;
 	}
 	p{
 		text-align: center;
 		font-family: $font2;
 	}
 	img{
-		margin: 20px;
+		margin: 1rem;
 		height: 300px;
 		width: auto;
+		@media screen and (max-width: $tablet-small){
+			width: 100%;
+			height: auto;
+			margin: 0 auto;
+		}
 	}
 }
 .event-project{
 	width: 100%;
-	padding-bottom: 20px;
+	padding-bottom: 1rem;
 	@media screen and (min-width: $desktop-small){
 		width: 33%;
 		display: inline-block;
+	}
+	@media screen and (min-width: $mobile-small){
+		text-align: center;
+	}
+	p{
+		padding-bottom: 30px;
 	}
 }

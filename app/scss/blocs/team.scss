@@ -4,41 +4,82 @@
 	margin-left: 2%;
 	margin-right: 2%;
 	width: 100%;
+	@media screen and (max-width: $desktop-small){
+		margin: 0;
+	}
 }
 
 
 .item {
-	width: 100%;
+	width: 30%;
 	display: inline-block;
 	background-size: cover;
 	min-height: 200px;
 	box-sizing: border-box;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding-left: 15%;
-	padding-right: 15%;
-	@media screen and (min-width: $desktop-small){
+	margin: 2rem 0;
+	background-position: center;
+	position: relative;
+	overflow: hidden;
+	@media screen and (max-width: $desktop-small){
+		width: auto;
+		min-height: 400px;
+		display: block;
+	}
+	@media screen and (min-width: $desktop-medium){
 		width: 30%;
+		height: auto;
+		display: inline-block;
+	}
+	p{
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translate(-50%);
+		width: 100%;
+		background-color: rgba(0,0,0,0.8);
+		height: 3rem;
+		font-size: 1rem;
+		@media screen and (min-width: $desktop-small){
+			transform: translate(-50%, 100%);
+		}
+	}
+	&:hover{
+		p{
+			@media screen and (min-width: $desktop-small){
+				animation-name: up;
+				animation-duration: 1s;
+				animation-fill-mode: forwards;	
+			}
+		}
 	}
 	
 }
+@keyframes up{
+	100% {transform: translate(-50%);}
+}
 .masonry-team{
 	color: $lightcolor;
+	margin-top: 3rem;
 	p{
 		font-family: $font2;
-		margin-top: 20px;
+		margin-top: 2rem;
 		text-align: center;
 	}
-	.item:first-child{
-		background-image: url('../img/team/romain.jpg');
+	.item{
+		&:first-child{
+			background-image: url('../img/team/romain.jpg');
+		}
+		&:nth-child(2){
+			background-image: url('../img/team/cyril.jpg');
+		}
+		&:nth-child(3){
+			background-image: url('../img/team/sacha.jpg');
+		}
+		&:nth-child(4){
+			background-image: url('../img/team/demoiselle.jpg');
+		}
+
 	}
-	.item:nth-child(2){
-		background-image: url('../img/team/cyril.jpg');
-	}
-	.item:nth-child(3){
-		background-image: url('../img/team/sacha.jpg');
-	}
-	.item:nth-child(4){
-		background-image: url('https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/16905023_1234270236609705_8344614664366490306_o.jpg?oh=3481109c1d74c93efcbd72d8e52840d3&oe=59683D17');
-	}
+
 }
+

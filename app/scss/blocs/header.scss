@@ -3,12 +3,12 @@ header{
 	width: 100%;
 	z-index: 2;
 	nav{
-		font-family: "Ubuntu" , sans-serif;
+		font-family: $font3;
 		width: 100%;
 		ul{
 			text-align: center;
 			height: auto;
-			background-color: rgba(0,0,0,0.8);
+			background-color: rgba(0,0,0,0.2);
 			margin: 0 auto;
 			display: none;
 			padding: 20px 0;
@@ -19,6 +19,13 @@ header{
 			@media screen and(min-width: $desktop-small){
 				display: inline-block;
 				margin: 0 20px;
+			}
+			&:first-child img{
+				position: absolute;
+			    height: 97px;
+			    width: auto;
+			    top: 0;
+			    left: 4rem;
 			}
 		}
 		a{
