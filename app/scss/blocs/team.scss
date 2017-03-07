@@ -21,6 +21,8 @@
 	padding-left: 15%;
 	padding-right: 15%;
 	background-position: center;
+	position: relative;
+	overflow: hidden;
 	@media screen and (max-width: $desktop-small){
 		width: auto;
 		min-height: 400px;
@@ -31,7 +33,32 @@
 		height: auto;
 		display: inline-block;
 	}
+	p{
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translate(-50%);
+		width: 100%;
+		background-color: rgba(0,0,0,0.8);
+		height: 3rem;
+		font-size: 1rem;
+		@media screen and (min-width: $desktop-small){
+			transform: translate(-50%, 100%);
+		}
+	}
+	&:hover{
+		p{
+			@media screen and (min-width: $desktop-small){
+				animation-name: up;
+				animation-duration: 1s;
+				animation-fill-mode: forwards;	
+			}
+		}
+	}
 	
+}
+@keyframes up{
+	100% {transform: translate(-50%);}
 }
 .masonry-team{
 	color: $lightcolor;
@@ -53,3 +80,4 @@
 		background-image: url('../img/team/demoiselle.jpg');
 	}
 }
+
