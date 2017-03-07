@@ -16,6 +16,11 @@
 		margin: 1rem;
 		height: 300px;
 		width: auto;
+		@media screen and (max-width: $tablet-small){
+			width: 100%;
+			height: auto;
+			margin: 0 auto;
+		}
 	}
 }
 .event-project{
@@ -24,5 +29,11 @@
 	@media screen and (min-width: $desktop-small){
 		width: 33%;
 		display: inline-block;
+	}
+	@media screen and (min-width: $mobile-small){
+		text-align: center;
+	}
+	p{
+		padding-bottom: 30px;
 	}
 }

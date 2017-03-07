@@ -4,11 +4,14 @@
 	margin-left: 2%;
 	margin-right: 2%;
 	width: 100%;
+	@media screen and (max-width: $desktop-small){
+		margin: 0;
+	}
 }
 
 
 .item {
-	width: 100%;
+	width: 30%;
 	display: inline-block;
 	background-size: cover;
 	min-height: 200px;
@@ -17,8 +20,16 @@
 	margin-bottom: 20px;
 	padding-left: 15%;
 	padding-right: 15%;
-	@media screen and (min-width: $desktop-small){
+	background-position: center;
+	@media screen and (max-width: $desktop-small){
+		width: auto;
+		min-height: 400px;
+		display: block;
+	}
+	@media screen and (min-width: $desktop-medium){
 		width: 30%;
+		height: auto;
+		display: inline-block;
 	}
 	
 }

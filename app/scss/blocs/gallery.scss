@@ -1,5 +1,8 @@
 .masonry-gallery{
 	color: $lightcolor;
+	margin: 0;
+	padding: 0;
+	width: 100vw;
 	.item:first-child{
 		background-image: url('../img/gallery/temptation.jpg');
 	}
@@ -27,8 +30,14 @@
 	.item:nth-child(9){
 		background-image: url('../img/gallery/jo.jpg');
 	}
+	.masonry{
+		margin-left: 1%;
+	}
 	.item{
 		margin: 10px;
+		@media screen and (min-width: $desktop-small){
+			width: 31%;
+		}
 	}
 }
 
