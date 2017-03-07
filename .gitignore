@@ -1,5 +1,10 @@
 /node_modules
 /dist/*
 !dist/img
+!dist/js/
 *log
+<<<<<<< HEAD
 .DS_Store
+=======
+.DS_Store
+>>>>>>> dev-johanna
