@@ -1,0 +1,32 @@
+
+@font-face {
+  font-family: 'Luxia-Semi-BoldDisplay';
+  src: url('font/Luxia-Semi-BoldDisplay.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.center,
+h2{
+	display: block;
+	text-align: center;
+}
+.medium{
+	position: relative;
+	z-index: 1;
+}
+.wrap{
+	max-width: 1120px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 20px;
+}
+img{
+	width: 100%;
+}
+.hidden{
+	display: none;
+}
+.show{
+	display: block;
+}

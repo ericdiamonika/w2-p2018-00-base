@@ -1,0 +1,35 @@
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	nav{
+		font-family: "Ubuntu" , sans-serif;
+		width: 100%;
+		ul{
+			text-align: center;
+			height: auto;
+			background-color: rgba(0,0,0,0.8);
+			margin: 0 auto;
+			display: none;
+			padding: 20px 0;
+		}
+		li{
+			display:block;
+			padding: 15px;
+			@media screen and(min-width: $desktop-small){
+				display: inline-block;
+				margin: 0 20px;
+			}
+		}
+		a{
+			color: $lightcolor;
+			text-decoration: none;
+		}
+	}
+}
+.menu-toggle{
+	position: absolute;
+	cursor: pointer;
+	font-size: 2rem;
+	margin: 25px;
+}

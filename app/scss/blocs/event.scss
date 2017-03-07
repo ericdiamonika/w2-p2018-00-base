@@ -1,0 +1,28 @@
+.event{
+	color: $lightcolor;
+	padding: 20px;
+	h2{
+		padding-bottom: 20px;
+	}
+	h3{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	p{
+		text-align: center;
+		font-family: $font2;
+	}
+	img{
+		margin: 20px;
+		height: 300px;
+		width: auto;
+	}
+}
+.event-project{
+	width: 100%;
+	padding-bottom: 20px;
+	@media screen and (min-width: $desktop-small){
+		width: 33%;
+		display: inline-block;
+	}
+}

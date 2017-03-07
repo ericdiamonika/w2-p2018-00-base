@@ -1,0 +1,27 @@
+.service{
+	color: $lightcolor;
+	padding-bottom: 20px;
+	.card{
+		width: 100%;
+		text-align: center;
+		padding: 20px;
+		margin: 20px 0;
+		background-color: rgba(255,255,255,0.06);
+		@media screen and (min-width: $desktop-small){
+			width: 29%;
+			display: inline-block;
+			margin: 0 20px;
+		}
+	}
+	h2{
+		padding-bottom: 20px;
+	}
+	h3{
+		margin-top: 10px;
+		padding-bottom: 20px;
+	}
+	p{
+		margin: 20px 0;
+		font-family: $font2;
+	}
+}

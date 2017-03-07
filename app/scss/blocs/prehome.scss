@@ -1,0 +1,19 @@
+.prehome{
+	.background{
+		height: 100vh;
+		background-image:url('../img/prehome/bg2.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	img{
+		width: 300px;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		margin-top: 50vh;
+		@media screen and(min-width: $desktop-small){
+			width: 600px;
+		}
+	}
+}
