@@ -1,23 +1,22 @@
 .about{
 	color: $lightcolor;
 	padding: 20px;
-	h2{
-		font-size: 2em;
-		text-align: center;
-		padding: 40px;
-	}
-	p{
-		font-family: $font2;
-		font-size: 12px;
-		line-height: 15px;
-		text-align: center;
-		margin-top: 10px;
-	}
 	.desc{
 		padding: 60px 0;
-		p{
+		 h5{
 			margin-top: 20px;
-			font-size: 12px;
+			margin-left: 35%;
+			padding-left: 0;
+			padding-right: 0;
+			 p{
+				opacity: .5;
+				font-size: 14px;
+				color: #ffffff;
+				opacity: .5;
+				letter-spacing: .3px;
+				max-width: 540px;
+				line-height: 24px;
+			 }
 		}
 	}
 }
