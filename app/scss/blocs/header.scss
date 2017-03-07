@@ -12,6 +12,9 @@ header{
 			margin: 0 auto;
 			display: none;
 			padding: 20px 0;
+			@media screen and(max-width: $tablet-small){
+				background-color: rgba(0,0,0,0.7);
+			}
 		}
 		li{
 			display:block;
@@ -26,6 +29,10 @@ header{
 			    width: auto;
 			    top: 0;
 			    left: 4rem;
+			    display: block;
+			    @media screen and(max-width: $desktop-small){
+					display: none;
+			    }
 			}
 		}
 		a{
